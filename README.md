@@ -28,11 +28,12 @@ Continuing for the rest of this game:
 
 <img width="697" alt="Screen Shot 2023-01-22 at 4 46 36 PM" src="https://user-images.githubusercontent.com/87575350/213942088-77d94fec-91b7-4574-a326-75b476d6fdff.png">
 
+
 <img width="395" alt="Screen Shot 2023-01-22 at 4 46 51 PM" src="https://user-images.githubusercontent.com/87575350/213942100-8e64c96d-c640-40fa-b739-e13b3abfbd98.png">
 
 <img width="701" alt="Screen Shot 2023-01-22 at 4 47 23 PM" src="https://user-images.githubusercontent.com/87575350/213942118-bda3466b-3dbe-4947-b87b-f2ac35acd7ba.png">
 
 <img width="427" alt="Screen Shot 2023-01-22 at 4 47 40 PM" src="https://user-images.githubusercontent.com/87575350/213942131-5561ad55-0756-4bef-88e2-e3db2928f8a4.png">
 
-<img width="702" alt="Screen Shot 2023-01-22 at 4 48 00 PM" src="https://user-images.githubusercontent.com/87575350/213942146-9eee8e53-fa1a-42f6-b95c-444c3577e3d1.png">
+<img width="697" alt="Screen Shot 2023-01-22 at 4 48 36 PM" src="https://user-images.githubusercontent.com/87575350/213942162-c99005bd-8fe7-4525-bd6a-e54d8129c20f.png">
 
