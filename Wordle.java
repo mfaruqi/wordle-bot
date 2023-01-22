@@ -25,6 +25,11 @@ public class Wordle {
             System.out.println("Enter the colors of the boxes with spaces: B (grey), Y (yellow),or G (green)");
             colors = in.nextLine();
             colors = colors.trim();
+            while (!isCorrectInput(colors)) {
+                System.out.println("Enter the colors of the boxes with spaces: B (grey), Y (yellow),or G (green)");
+                colors = in.nextLine();
+                colors = colors.trim();
+            }
             words = removeWords(words, currentWord, colors);
             if (words == null) {
                 break;
@@ -36,14 +41,14 @@ public class Wordle {
             //currentWord = getBestWord(words, percentages, i);
             //System.out.println(words);
             currentWord = words.get(0);
-            System.out.println("Use this word>> " + currentWord);
+            System.out.println("Use: " + currentWord.toUpperCase());
         }
         //System.out.println("After >>>>" + words);
     }
 
     public static ArrayList<String> removeWords(ArrayList<String> words, String word, String colors) {
         if (colors.equals("GGGGG")) {
-            System.out.println("LFG!");
+            System.out.println("YAY!");
             return null;
         }
         ArrayList<String> newWords = new ArrayList<String>();
@@ -168,4 +173,20 @@ public class Wordle {
         }
         return false;
     }
+    
+    public static Boolean isCorrectInput(String input) {
+        if (input.length() > 5 || input.length() < 5) {
+            System.out.println("Input must be 5 charachters long. Please try again.");
+            return false;
+        }
+        for (int i = 0; i < input.length(); i++) {
+            if (input.charAt(i) != 'G' && input.charAt(i) != 'Y' && input.charAt(i) != 'B') {
+               System.out.println("Your input is not correct. Make sure it is either \'G\', \'Y\', or \'B\'. Please try again."); 
+               return false;
+            }
+        }
+        return true;
+    }
 }
+
+
